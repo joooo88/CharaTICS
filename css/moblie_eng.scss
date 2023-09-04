@@ -1,0 +1,352 @@
+@import "./mixin";
+
+/*데탑 1440px*/
+@include desktop{
+    main {
+        #coin {
+            .coin-text {
+                .box-intro{
+                    width: 30% ; 
+                }
+            }
+        }
+        #roadmap {
+            .road-box {
+                div {
+                    ul {
+                        .road-left {
+                            .road-one {
+                                img{
+                                    height: 280px;
+                                }
+                            }
+                            .road-box{
+                                height: 280px;
+                            }
+                        }
+                        .road-right {
+                            .road-one {
+                                img{
+                                    height: 280px;
+                                }
+                            }
+                            .road-box{
+                                height: 280px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+/*노트북 1024px*/
+@include laptop{
+    main {
+        #home {
+            article {
+                .home_wrap {
+                    .home_content {
+                        .home_txt {
+                            h3{
+                                text-align: center;
+                                font-size: 1.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #coin {
+            .coin-text {
+                .box-intro{
+                    width: 40%;
+                }
+            }
+        }
+        #roadmap {
+            .road-box {
+                div {
+                    ul {
+                        .road-left {
+                            .road-box{
+                                padding: 1.5rem;
+                            }
+                        }
+                        .road-right {
+                            .road-box{
+                                padding: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*패드 991px*/
+@include tablet{
+    main {
+        #about {
+            .about-3 {
+                .about-title {
+                    ul {
+                        li {
+                            .ab-title {
+                                .ab-box{
+                                    padding: 2rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #roadmap {
+            .road-box {
+                div {
+                    ul {
+                        .road-left {
+                            .road-box {
+                                h3{
+                                    line-height: 2;
+                                }
+                            }
+                        }
+                        .road-right {
+                            .road-box {
+                                h3{
+                                    line-height: 1.4;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+/*아이패드 768px*/
+@include itablet{
+    main {
+        #coin {
+            .coin-text {
+                .box-intro{
+                    width: 55%;
+                }
+            }
+        }
+        #roadmap {
+            .road-box{
+                div {
+                    ul {
+                        .road-left {
+                            .road-one {
+                                img{
+                                    width: 300px;
+                                    object-fit: cover;
+                                
+                                }
+                            }
+                            .road-box {
+                                h3{
+                                    line-height: 1.7;
+                                }
+                            }
+                            
+                        }
+                        .road-right{
+                            .road-one {
+                                img{
+                                    width: 300px;
+                                    object-fit: cover;
+                                
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* 모바일 767px*/
+@include mobile{}
+
+/* 모바일2 576px */
+@include mobile2{
+    main {
+        #home {
+            article {
+                .home_wrap{
+                    width: 80%;
+                    .home_content {
+                        .home_txt {
+                            h3{
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #about {
+            .about-3 {
+                .about-title {
+                    ul {
+                        li {
+                            .ab-title {
+                                .ab-box{
+                                    padding: 1.5rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #coin {
+            .coin-text {
+                .box-intro{
+                    width: 70%;
+                }
+            }
+        }
+        #roadmap {
+            .road-box{
+                div {
+                    ul {
+                        .road-left{
+                            .road-one{
+                                display: none;
+                            }
+                            
+                            .road-box{
+                                h3{
+                                
+                                    line-height: 2.5;
+                                }
+                            }
+                        }
+                        .road-right{
+                            .road-one{
+                                display: none;
+                            }
+                            .road-box{
+                                h3{
+                                
+                                    line-height: 1.8;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* 모바일3 갤석시 425px */
+@include galaxy{
+    main {
+        #home {
+            article {
+                .home_wrap {
+                    .home_content {
+                        .home_txt {
+                            h3{
+                                white-space: normal;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #about {
+            .about-3 {
+                .about-title {
+                    ul {
+                        li {
+                            .ab-title {
+                                .ab-box{
+                                    height: 500px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #coin {
+            .coin-text {
+                .box-intro{
+                    width: 100%;
+                }
+            }
+        }
+        #roadmap {
+            .road-box {
+                div {
+                    ul {
+                        .road-left {
+                            .road-box {
+                                h3{
+                                    line-height: 1.9;
+                                }
+                            }
+                        }
+                        .road-right{
+                            .road-box {
+                                h3{
+                                    line-height: 1.4;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* 모바일4 아이폰 375px */
+@include iphone{
+    main {
+        #about {
+            .about-3 {
+                .about-title {
+                    ul {
+                        li {
+                            .ab-title {
+                                .ab-box{
+                                    padding: 1rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #roadmap {
+            .road-box {
+                div {
+                    ul {
+                        .road-left {
+                            .road-box {
+                                h3{
+                                    line-height: 1.5;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

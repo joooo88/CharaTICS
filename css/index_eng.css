@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+address {
+  font-style: normal;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*header*/
+/* main */
+main #about .about-3 .about-text .box-intro {
+  width: 300px;
+  height: 150px;
+}
+main #about .about-3 .about-title ul li .ab-title .ab-box {
+  padding: 3rem 3rem;
+}
+main #about .about-3 .about-title ul li .ab-title .ab-box h3 {
+  padding-bottom: 10px;
+}
+main #about .about-3 .about-title ul li .ab-title .ab-box h4 {
+  font-size: 0.92rem;
+}
+main #roadmap .road-box div ul li .road-box {
+  padding: 2rem;
+  width: 600px;
+  height: 320px;
+}
+main #roadmap .road-box div ul li .road-one img {
+  height: 320px;
+}
+/*footer*//*# sourceMappingURL=index_eng.css.map */

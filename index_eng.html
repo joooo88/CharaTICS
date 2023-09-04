@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CharaTics</title>
+
+
+  <!--meta-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"> 
+  <meta http-equiv="X-UA-Compatible" content="le=edge">
+
+  <!--bootstrap-->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!--css-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/index_eng.css">
+  <link rel="stylesheet" href="css/moblie.css">
+  <link rel="stylesheet" href="css/moblie_eng.css">
+
+  <!--favicon--->
+  <link href="img/favicon.ico" rel="icon">
+  <link href="img/favicon.ico" rel="apple-touch-icon">
+
+ <!--js-->
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/menu_scroll.js"></script>
+  <script src="js/header.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+  
+
+</head>
+
+
+
+<body>
+
+
+  <header  class="header" >
+
+    <div class="hd_all">
+
+      <hgroup>
+
+        <a href="#home">
+          <h1 class="menu_style">
+            <img src="img/CharaTics-row.png" alt="logo">
+          </h1>
+        </a>
+
+      </hgroup>
+
+
+      <nav class="pc_menu">
+        <ul class="menu_style">
+
+          <li><a href="#home" class="scroll"onClick="selectLink(this); return false;">Home</a></li>
+          <li><a href="#about" class="scroll" onClick="selectLink(this); return false;">About</a></li>
+          <li><a href="#coin" class="scroll" onClick="selectLink(this); return false;">Charatics Coin</a></li>
+          <li><a href="#roadmap" class="scroll" onClick="selectLink(this); return false;">Roadmap</a></li>
+          <li><a href="#contact" class="scroll" onClick="selectLink(this); return false;">Contact</a></li>
+          <!-- <li class="lang"><a href="index_eng.html" class="scroll"><div>
+            Kor| <bb>Eng </bb>
+          </div></a></li> -->
+
+
+        </ul>
+      </nav>
+
+      <lnb class="lang">
+        <div>
+          <ul id="myList">LANG ▾
+            <li><a href="index.html">KOR</a></li>
+            <li><a href="index_eng.html">ENG</a></li>
+          </ul>
+        </div>
+      </lnb>
+      
+
+     <!--반응형-->
+
+     <div class="m_menu_button">
+
+      <a href="#" class="menu-trigger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+
+    </div>
+
+     <!--반응형 js-->
+     <script type="text/javascript">
+
+      $(function () {
+        $(".menu-trigger").click(function (e) {
+          e.preventDefault();
+          $(this).toggleClass('active-' + 1);
+        });
+      });
+
+    </script>
+
+    <nav class="m_menu">
+      <ul class="menu_style">
+        <li><a href="#home" class="scroll" onClick="selectLink(this); return false;" id="myLink">Home</a></li>
+        <li><a href="#about" class="scroll" onClick="selectLink(this); return false;">About</a></li>
+        <li><a href="#coin" class="scroll" onClick="selectLink(this); return false;">Charatics Coin</a></li>
+        <li><a href="#roadmap" class="scroll" onClick="selectLink(this); return false;">Roadmap</a></li>
+        <li><a href="#contact" class="scroll" onClick="selectLink(this); return false;">Contact</a></li>
+        <li class="lang"><a href="index_eng.html" class="scroll"></a>ENG</li>
+      </ul>
+      
+    </nav>
+
+    <!--반응형 js-->
+    <script type="text/javascript">
+      $(function () {
+        $(".m_menu_button").click(function () {
+          $(".m_menu").animate({ height: "toggle" }, 250);
+        });
+      });
+
+    </script>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <!-- home -->
+    <section id="home">
+     <div class="main_video">
+       <video autoplay muted loop >
+         <source src="vid/home_vid.mp4" type="video/mp4">
+       </video>
+     </div>
+
+     <article>
+     <div class="home_wrap" >
+       <div class="home_content container">
+         
+         <div class="home_logo" data-aos="fade-down" data-aos-duration="1000" >
+           <img src="img/CharaTics-row3.png">
+         </div>
+         
+         <div class="home_txt" data-aos="fade-down" data-aos-duration="1500"  >
+           <h2 class="tracking-in-expand"  >Character NFT</h2>
+           
+           <h3>We are presenting a new standard for <br>the existing global character business.</h3>
+
+           <div class="home_btn">
+             <a onclick="location.href='CharaTICS white paper Ver. 01- Eng.pdf' " target="_blank" class="button">Whitepaper</a>
+             <a href="#" class="button">Wallet</a>
+           </div>
+
+           
+         </div>
+
+       </div>
+       
+     </div>
+
+     <div class="slider-box">
+       <div class="slider">
+               <div class="slide-track">
+                 <div class="slide">
+                   <img src="img/01 CABBIT.png" >
+                 </div>
+                 <div class="slide">
+                   <img src="img/02 CUPPY.png">
+                 </div>
+                 <div class="slide">
+                   <img src="img/03 CITTEN.png" >
+                 </div>
+                 <div class="slide">
+                   <img src="img/04 CENGUIN.png"  >
+                 </div>
+                 <div class="slide">
+                   <img src="img/05 CEAR.png" >
+                 </div>
+                 <div class="slide">
+                   <img src="img/06 CANDA.png" >
+                 </div>
+                 <div class="slide">
+                   <img src="img/01 CABBIT.png" >
+                 </div>
+                 <div class="slide">
+                   <img src="img/02 CUPPY.png">
+                 </div>
+                 <div class="slide">
+                   <img src="img/03 CITTEN.png" >
+                 </div>
+                 <div class="slide">
+                   <img src="img/04 CENGUIN.png"  >
+                 </div>
+                 <div class="slide">
+                   <img src="img/05 CEAR.png" >
+                 </div>
+                 <div class="slide">
+                   <img src="img/06 CANDA.png" >
+                 </div>
+                 
+                 
+               </div>
+       </div>
+
+       <div class="slidebg">
+         <img  src="img/Mockup-bg.png">
+       </div>
+     </div>
+     
+
+     
+     </article>
+     
+    
+   </section>
+
+
+   <!-- about -->
+   <section id="about">
+
+     <article class="about-1">
+       <div class="about-text" data-aos="fade-down" data-aos-duration="1000">
+         <div class="box-intro"><h2 >Intro.</h2></div>
+         <h1>01</h1>
+         <div class="intro1-wrap"  data-aos="fade-down"  data-aos-duration="1000">
+           <h3 >It is not a character business or pure art, but a field with the largest<br> fan base and profit model in the commercial art industry.</h3>
+           <h4>We will improve the constitution of the industry by presenting new standards <br> for business and create new profit models and participation benefits.</h4>
+         </div>
+       </div>
+
+       <div class="about-img" data-aos="fade-down" data-aos-duration="1300" >
+         <img class="ab-bg1" src="img/ab-banone.svg">
+         <div class="ab-bg2">
+           <!-- <img class="one1" src="img/text-one.svg"> -->
+           <img class="one2"src="img/iPhone main intro.png">
+         </div>
+       </div>
+
+     </article>
+
+     <article class="about-2">
+       <div class="about-text" data-aos="fade-down" data-aos-duration="1000">
+         <div class="box-intro"><h2 >Blockchain<br>Protocol</h2></div>
+         <h1>02</h1>
+         <div class="intro1-wrap">
+           <h3>It is implemented by applying business progress through platform implementation,<br>transparency, efficiency, and security of blockchain</h3>
+         </div>
+       </div>
+
+       <div class="about-trple">
+         <ul>
+           <li data-aos="flip-left"
+           data-aos-easing="ease-out-cubic"
+           data-aos-duration="1000" >
+             <h4>01</h4>
+             <p>The platform allows individual creators to freely create and mint character NFTs</p>
+               <div></div>
+           </li>
+           <li data-aos="flip-left"
+           data-aos-easing="ease-out-cubic"
+           data-aos-duration="1500">
+             <h4>02</h4>
+             <p>The ability to share produced NFT works with global users and trade with each other regardless of time and place</p>
+             <div></div>
+           </li>
+           <li data-aos="flip-left"
+           data-aos-easing="ease-out-cubic"
+           data-aos-duration="2000">
+             <h4>03</h4>
+             <p>The ability to select character NFT works that are in high demand through the DAO method and trade them in various trading methods</p>
+               <div></div>
+           </li>
+         </ul>
+       </div>
+
+       <div class="about-img">
+         <div class="one-size">
+           <div></div>
+           <div></div>
+           <div></div>
+         </div>
+         <div class="ab-move">
+           <img class="mouck"src="img/Mockup - bg.png">
+           <img class="ct" src="img/다이어그램2.png" >
+         </div>
+       </div>
+
+       <div class="loop-holder">
+         <div class="loop-holder__text">CABBIT CUPPY CITTEN CENGUIN  CEAR CANDA</div>
+         <div class="loop-holder__text">CABBIT CUPPY CITTEN CENGUIN  CEAR CANDA</div>
+         <div class="loop-holder__text">CABBIT CUPPY CITTEN CENGUIN  CEAR CANDA</div>
+       </div>
+
+       
+       
+     </article>
+
+
+     <article class="about-3">
+       <div class="about-text"  data-aos="fade-down" data-aos-duration="1500">
+         <div class="box-intro" ><h2>Ecosystems contributors and benefit for each</h2></div>
+         <h1>03</h1>
+       </div>
+       <div class="about-title">
+         <ul>
+           <li class="about03-1">
+             <div class="ab-title">
+               <div class="ab-box" data-aos="fade-right" data-aos-duration="500">
+                 <h3>Character NFT creator</h3>
+                 <h4>You can release NFT works of various themes on the Ethereum-based NFT platform, exchange information with many users, and freely promote your works internationally, thereby quickly increasing your awareness and ensuring stable work creation through the sale of works and the income of indefinite resale royalties.</h4>
+               </div>
+             </div>
+             <div class="ab-img" data-aos="fade-right" data-aos-duration="1000">
+               <img src="img/11.jpg">
+             </div>
+           </li>
+           <li class="about03-2">
+             <div class="ab-title">
+               <div class="ab-box" data-aos-easing="linear" data-aos="fade-left" data-aos-duration="500">
+                 <h3>Company that uses character products</h3>
+                 <h4>The demand for popular works among characters tends to continue to expand over time. Character products that were previously traded through general online brokerage media are now moving to blockchain-based NFT exchanges. Individual and institutional collectors will be able to collect works, buy character series by theme, and resell them again, thereby securing a fairly high and stable resale revenue.</h4>
+               </div>
+             </div>
+             <div class="ab-img" data-aos-easing="linear" data-aos="fade-left" ata-aos-duration="1000">
+               <img src="img/22.jpg">
+             </div>
+             
+             
+           </li>
+           <li class="about03-3">
+             <div class="ab-title">
+               <div class="ab-box" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+                 <h3>Character commodity trading personal and institutional collectors</h3>
+                 <h4>Commercialized NFTs will also be an attractive opportunity for wholesalers who purchase them in wholesale form and release them in bundles at other international NFT marketplaces, and collaborate through the launch of separate collections in the international NFT trading market.</h4>
+               </div>
+             </div>
+             <div class="ab-img" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
+               <img src="img/33.jpg">
+             </div>
+           </li>
+           <li class="about03-4">
+             
+             <div class="ab-title">
+               <div class="ab-box" data-aos-easing="linear" data-aos="fade-left" data-aos-duration="500">
+                 <h3>Character Commodity Launch NFT Exchange</h3>
+                 <h4>Securing various commercial characters in the exchange leads to the influx of customers, which contributes greatly to the exchange's long-term income and recognition. By securing a variety of enterprise characters, it can have the effect of increasing transaction fee income through agreements with corporate customers and increasing sales of NFT products.
+                </h4>
+               </div>
+             </div>
+             <div class="ab-img" data-aos-easing="linear" data-aos="fade-left" ata-aos-duration="1000">
+               <img src="img/44.jpg">
+             </div>
+             
+           </li>
+         </ul>
+       </div>
+       
+       <div class="ab-wave">
+         <svg class="editorial"
+           xmlns="http://www.w3.org/2000/svg"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           width="1920" 
+           viewBox="0 24 150 28"
+           preserveAspectRatio="none">
+             <defs>
+         <path id="gentle-wave"
+         d="M-160 44c30 0 
+             58-18 88-18s
+             58 18 88 18 
+             58-18 88-18 
+             58 18 88 18
+             v44h-352z" />
+             </defs>
+             <g class="parallax">
+               <use xlink:href="#gentle-wave" x="50" y="0" fill="#5368e142"/>
+               <use xlink:href="#gentle-wave" x="50" y="3" fill="#5368e187"/>
+               <use xlink:href="#gentle-wave" x="50" y="6" fill="#5368E1"/>  
+             </g>
+           </svg>
+     </div>
+
+     </article>
+
+   </section>
+
+   <!-- coin -->
+   <section id="coin" data-aos-easing="linear" data-aos="fade-down" data-aos-duration="1000">
+     <div class="coin-text" data-aos="fade-down" data-aos-duration="1000">
+       <h2>COIN</h2>
+       <div class="box-intro"><h3>Tokenized Budget allocations Plan</h3></div>
+     </div>
+       
+     <ul class="coin-chart">
+       <li class="chart-top">
+             <p>Coinname : CharaTICS | Symbol: CRTS | Protocol : ERC20 | Totalsupply : 500,000,000</p>
+       </li>
+       <li class="chart-bottom">
+         <div class="chart-inner" >
+           <img src="img/MacBook Pro 16-e.png">
+         </div>
+         <div class="chart-outside1"></div>
+         <div class="chart-outside2"></div>
+       </li>
+     </ul>
+
+     <div class="coin-bg">
+       <img class="fixed-image" src="img/C-500.png">
+     </div>
+     
+   </section>
+
+   <!-- roadmap -->
+   <section id="roadmap"  data-aos-easing="linear" data-aos="fade-down" data-aos-duration="1000">
+     <div class="road-text" data-aos="fade-down" data-aos-duration="1000">
+       <h2>Roadmap</h2>
+     </div>
+
+     <article class="road-box">
+       <div>
+         <ul>
+           <li class="road-left">
+             <div class="road-one"><img src="img/road-1.png"></div>
+             <div class="road-box">
+               <h2>2023</h2>
+               <h3>Q2 CHARATICS BUSINESS STARTED</h3>
+               <h3>Q3 International Character NFT Product Market Survey</h3>
+               <h3>Q4 Character NFT web 3.0 Wallet Launch First Listing on the International Exchange</h3>
+             </div>
+           </li>
+
+           <li class="road-right">
+             <div class="road-one"><img src="img/road-2.png"></div>
+             <div class="road-box">
+               <h2>2024</h2>
+               <h3>Q1 Participate in the International Character NFT Online Exhibition</h3>
+               <h3>Q2 SECOND LISTING ON INTERNATIONAL EXCHANGE</h3>
+               <h3>Q3 Launch of Business Platform</h3>
+               <h3>Q4 Expands NFT Exchanges to Expand International Markets</h3>
+             </div>
+           </li>
+         </ul>
+       </div>
+     </article>
+
+     <div class="road-one" >
+       
+     </div>
+   </section>
+
+   <!-- contact -->
+   <section id="contact">
+     <article>
+       <ul>
+         <li class="con-left">
+           <img class="con1" src="img/con-one.png">
+           <img class="con2" src="img/C-500.png">
+         </li>
+
+         <li class="con-right">
+           <h3 data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000">Contact</h3>   
+           <div class="form_box" data-aos="fade-up" data-aos-duration="1000">
+             <form method="post" onsubmit="return validate();">
+               <input type="text" id="email" placeholder="Email" required>
+               <input type="text" id="text" placeholder="Message" required>
+               <input type="submit" value="SUBMIT">
+             </form>
+           </div>           
+         </li>
+       </ul>
+     </article>
+   </section>
+ </main>
+  
+  <footer>
+    <div class="footer_area container">
+
+      <a href="#home">
+        <h1 class="logo_icon">
+          <img src="img/CharaTics-300.png" alt="logo">
+        </h1>
+      </a>
+     
+
+      <ul class="inc">
+        <h4>CharaTICS Ltd.</h4>
+        <!-- <li>운영사 :</li> -->
+        <!-- <li>예금주 : </li> -->
+        <li>Address : <!--  --></li>
+       <!--  <li>wallet : <span onclick="location.href='#' "></span></li> -->
+        <li>Customer Service : <!-- 070-8018-7692 --> <span>(Mon-Fri 10am-5pm － 12~2pm)</span></li>
+      </ul>
+
+      <div class="white_pp">
+        <h4>Whitepaper</h4>
+        <aside class="but-box">
+          <button type="button" onclick="location.href='CharaTICS white paper Ver. 01- Kor.pdf' " target="_blank"><img src="img/ico-pdf.png">Kor</button>
+          <button type="button" onclick="location.href='CharaTICS white paper Ver. 01- Eng.pdf' "><img src="img/ico-pdf.png">Eng</button>
+        </aside>
+      </div>
+
+      <div class="sns">
+        <h4>Community</h4>
+        <button type="button" onclick="location.href='#' " target="_blank"><img src="img/telegram.svg"><!-- <i class="xi-telegram"></i> --></button>
+        <!-- <button type="button" onclick="location.href='#' "><i class="xi-kakaotalk"></i></button> -->
+      </div>
+    </div>
+
+    <p class="footer_p">재단은 코인제작 및 플랫폼 운영, 지갑 관리, 거래소 상장 추진 및 관리에 관한 업무만 진행하고 있습니다.</p>
+  </footer>
+
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+
+</html>

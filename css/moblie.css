@@ -1,0 +1,459 @@
+@charset "UTF-8";
+/*데탑 1440px*/
+@media screen and (max-width: 1440px) {
+  /* main */
+  main #home article .slider-box .slider {
+    left: 0.2rem;
+  }
+  main #home article .slider-box .slider .slide-track .slide img {
+    width: 150px;
+    height: 150px;
+  }
+  main #home article .slider-box .slidebg img {
+    width: 500px;
+  }
+  main #about .about-2 .about-img .ab-move .mouck {
+    width: 300px;
+  }
+  main #about .about-2 .about-img .ab-move .ct {
+    top: 30rem;
+    width: 280px;
+  }
+  main #about .about-2 .loop-holder {
+    top: -30rem;
+  }
+  main #about .about-2 .about-img .one-size div:nth-of-type(1) {
+    width: 500px;
+    height: 500px;
+  }
+  main #about .about-2 .about-img .one-size div:nth-of-type(2) {
+    width: 450px;
+    height: 450px;
+  }
+  main #about .about-2 .about-img .one-size div:nth-of-type(3) {
+    width: 400px;
+    height: 400px;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(1) .ab-title, main #about .about-3 .about-title ul li:nth-of-type(3) .ab-title {
+    width: 36%;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(1) .ab-img, main #about .about-3 .about-title ul li:nth-of-type(3) .ab-img {
+    left: 26rem;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(2) .ab-title, main #about .about-3 .about-title ul li:nth-of-type(4) .ab-title {
+    width: 36%;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(2) .ab-img, main #about .about-3 .about-title ul li:nth-of-type(4) .ab-img {
+    left: 4rem;
+  }
+  main #roadmap .road-box div ul .road-left .road-one img {
+    height: 250px;
+  }
+  main #roadmap .road-box div ul .road-left .road-box {
+    height: 250px;
+    padding: 2rem;
+  }
+  main #roadmap .road-box div ul .road-left .road-box h3 {
+    line-height: 2.5;
+  }
+  main #roadmap .road-box div ul .road-right .road-one img {
+    height: 250px;
+  }
+  main #roadmap .road-box div ul .road-right .road-box {
+    height: 250px;
+    padding: 2rem;
+  }
+  main #roadmap .road-box div ul .road-right .road-box h3 {
+    line-height: 1.7;
+  }
+  main #contact article ul {
+    height: 300px;
+  }
+  main #contact article ul .con-left .con1 {
+    transform: translate(-50%, 25%);
+  }
+  @keyframes spin {
+    from {
+      transform: translate(-50%, 25%) rotate(0);
+    }
+    to {
+      transform: translate(-50%, 25%) rotate(360deg);
+    }
+  }
+  main #contact article ul .con-left .con2 {
+    transform: translate(-55%, 125%);
+  }
+  main #contact article ul .con-right div form {
+    gap: 10px;
+  }
+}
+/*노트북 1024px*/
+@media screen and (max-width: 1024px) {
+  /* header */
+  header .hd_all .pc_menu .menu_style a {
+    font-size: 1rem;
+  }
+  main #home article .home_wrap {
+    width: 50%;
+  }
+  main #home article .slider-box .slider {
+    left: 6.4rem;
+  }
+  main #home article .slider-box .slidebg {
+    transform: translate(-88%, -55%);
+  }
+  main #home article .slider-box .slidebg img {
+    width: 400px;
+  }
+  main #about .about-1 .about-img .ab-bg1 {
+    max-width: 90%;
+  }
+  main #about .about-2 .about-trple ul li p {
+    font-size: 1rem;
+  }
+  main #about .about-3 .about-title ul li {
+    max-width: 80%;
+  }
+  main #about .about-3 .about-title ul li .ab-title .ab-box {
+    padding: 2rem 3rem;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(1) .ab-title, main #about .about-3 .about-title ul li:nth-of-type(3) .ab-title {
+    width: 45%;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(1) .ab-img, main #about .about-3 .about-title ul li:nth-of-type(3) .ab-img {
+    top: 6rem;
+    left: 14rem;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(1) .ab-img img, main #about .about-3 .about-title ul li:nth-of-type(3) .ab-img img {
+    width: 600px;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(2) .ab-title, main #about .about-3 .about-title ul li:nth-of-type(4) .ab-title {
+    width: 45%;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(2) .ab-img, main #about .about-3 .about-title ul li:nth-of-type(4) .ab-img {
+    top: 5.5rem;
+    left: 0rem;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(2) .ab-img img, main #about .about-3 .about-title ul li:nth-of-type(4) .ab-img img {
+    width: 600px;
+  }
+  main #contact article ul .con-left .con1 {
+    transform: translate(-40%, 25%);
+  }
+  @keyframes spin {
+    from {
+      transform: translate(-40%, 25%) rotate(0);
+    }
+    to {
+      transform: translate(-40%, 25%) rotate(360deg);
+    }
+  }
+  main #contact article ul .con-left .con2 {
+    transform: translate(-24%, 125%);
+  }
+}
+/*패드 991px*/
+@media screen and (max-width: 991px) {
+  header .hd_all .pc_menu {
+    padding: 0 1rem;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(1) .ab-img, main #about .about-3 .about-title ul li:nth-of-type(3) .ab-img {
+    left: 12rem;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(2) .ab-img, main #about .about-3 .about-title ul li:nth-of-type(4) .ab-img {
+    top: 5.5rem;
+    left: 0rem;
+  }
+  main #coin .coin-chart .chart-bottom .chart-outside1 {
+    width: 800px;
+  }
+  main #coin .coin-chart .chart-bottom .chart-outside2 {
+    width: 800px;
+  }
+}
+/*아이패드 768px*/
+@media screen and (max-width: 768px) {
+  header .hd_all .pc_menu {
+    display: none;
+  }
+  header .hd_all .m_menu_button {
+    display: block;
+  }
+  main #home article {
+    flex-direction: column;
+    padding-bottom: 160px;
+  }
+  main #home article .home_wrap {
+    height: 50%;
+  }
+  main #home article .home_wrap .home_content .home_txt h3 {
+    white-space: nowrap;
+    margin-bottom: 2rem;
+  }
+  main #home article .slider-box .slider {
+    top: 5rem;
+    left: 5.1rem;
+    width: 50%;
+  }
+  main #home article .slider-box .slidebg {
+    transform: translate(-112%, -20%);
+  }
+  main #about .about-3 .about-text h1 {
+    padding: 1rem 0 0;
+  }
+  main #about .about-3 .about-title ul {
+    padding-bottom: 10rem;
+  }
+  main #about .about-3 .about-title ul li {
+    padding-top: 0rem;
+  }
+  main #about .about-3 .about-title ul li .ab-title {
+    justify-content: center;
+  }
+  main #about .about-3 .about-title ul li .ab-title .ab-box {
+    width: 600px;
+    height: 350px;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(1) .ab-title, main #about .about-3 .about-title ul li:nth-of-type(3) .ab-title {
+    width: 100%;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(1) .ab-img, main #about .about-3 .about-title ul li:nth-of-type(3) .ab-img {
+    z-index: 0;
+    top: 19rem;
+    left: 17rem;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(1) .ab-img img, main #about .about-3 .about-title ul li:nth-of-type(3) .ab-img img {
+    width: 300px;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(2) .ab-title, main #about .about-3 .about-title ul li:nth-of-type(4) .ab-title {
+    width: 100%;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(2) .ab-img, main #about .about-3 .about-title ul li:nth-of-type(4) .ab-img {
+    top: 18rem;
+    left: 2rem;
+    z-index: 0;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(2) .ab-img img, main #about .about-3 .about-title ul li:nth-of-type(4) .ab-img img {
+    width: 300px;
+  }
+  main #coin .coin-text .box-intro {
+    width: 40%;
+  }
+  main #coin .coin-chart .chart-top p {
+    line-height: 1.7;
+  }
+  main #coin .coin-chart .chart-bottom .chart-inner img {
+    max-width: 100%;
+  }
+  main #coin .coin-chart .chart-bottom .chart-outside1 {
+    max-width: 100%;
+    max-height: 70%;
+  }
+  main #coin .coin-chart .chart-bottom .chart-outside2 {
+    max-width: 100%;
+    max-height: 70%;
+  }
+  main #roadmap .road-box div ul .road-left .road-box {
+    padding: 1rem;
+  }
+  main #roadmap .road-box div ul .road-left .road-box h3 {
+    line-height: 2.2;
+  }
+  main #roadmap .road-box div ul .road-right .road-box {
+    padding: 1rem;
+  }
+  main #roadmap .road-box div ul .road-right .road-box h3 {
+    line-height: 1.9;
+  }
+  main #contact article ul {
+    max-width: 100%;
+  }
+  main #contact article ul .con-left .con1 {
+    max-width: 80%;
+    transform: translate(-30%, 40%);
+  }
+  @keyframes spin {
+    from {
+      transform: translate(-30%, 40%) rotate(0);
+    }
+    to {
+      transform: translate(-30%, 40%) rotate(360deg);
+    }
+  }
+  main #contact article ul .con-left .con2 {
+    transform: translate(-6%, 123%);
+  }
+}
+/* 모바일 767px*/
+@media screen and (max-width: 767px) {
+  main #about .about-2 .about-trple ul {
+    flex-direction: column;
+  }
+  main #about .about-2 .about-trple ul li {
+    width: 451px;
+    height: 230px;
+  }
+  main #about .about-2 .about-trple ul li div {
+    right: -4rem;
+    bottom: -8rem;
+  }
+  footer .footer_area {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  footer .footer_area .inc {
+    width: 100%;
+  }
+}
+/* 모바일2 576px */
+@media screen and (max-width: 576px) {
+  main #home article .slider-box .slider {
+    left: 3rem;
+    width: 63%;
+  }
+  main #home article .slider-box .slidebg {
+    transform: translate(-182%, -20%);
+  }
+  main #about .about-1 .about-text .intro1-wrap h3 {
+    font-size: 1.4rem;
+  }
+  main #about .about-1 .about-text .intro1-wrap h4 {
+    font-size: 1rem;
+  }
+  main #about .about-1 .about-img .ab-bg1 {
+    max-width: 100%;
+  }
+  main #about .about-1 .about-img .ab-bg2 .one2 {
+    max-width: 100%;
+  }
+  main #about .about-2 .about-text .intro1-wrap h3 {
+    font-size: 1.4rem;
+  }
+  main #about .about-3 .about-title ul {
+    padding-bottom: 5rem;
+  }
+  main #about .about-3 .about-title ul li .ab-title .ab-box {
+    padding: 2rem;
+  }
+  main #about .about-3 .about-title ul li .ab-title .ab-box h3 {
+    padding-bottom: 5px;
+  }
+  main #about .about-3 .about-title ul li .ab-img {
+    display: none;
+  }
+  main #about .about-3 .about-title ul li:nth-of-type(1), main #about .about-3 .about-title ul li:nth-of-type(2), main #about .about-3 .about-title ul li:nth-of-type(3) {
+    margin-bottom: 4rem;
+  }
+  main #coin .coin-chart {
+    padding: 0 2rem;
+  }
+  main #roadmap .road-box div ul .road-left .road-one img {
+    width: 230px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main #roadmap .road-box div ul .road-right .road-one img {
+    width: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main #contact article ul .con-left {
+    display: none;
+  }
+  main #contact article ul .con-right {
+    width: 100%;
+  }
+  footer .footer_area {
+    padding: 0 3rem;
+  }
+  footer p {
+    padding: 0 3rem;
+  }
+}
+/* 모바일3 갤석시 425px */
+@media screen and (max-width: 425px) {
+  header .hd_all {
+    padding: 0 5rem 0 2rem;
+  }
+  header .hd_all .lang {
+    width: 30%;
+  }
+  header .hd_all .m_menu .menu_style li {
+    margin-bottom: 50%;
+  }
+  main #home article .home_wrap {
+    width: 80%;
+  }
+  main #home article .home_wrap .home_content .home_logo img {
+    max-width: 100%;
+  }
+  main #home article .home_wrap .home_content .home_txt h2 {
+    font-size: 2rem;
+  }
+  main #home article .home_wrap .home_content .home_txt h3 {
+    font-size: 1.5rem;
+  }
+  main #home article .slider-box .slider {
+    left: 2rem;
+    width: 70%;
+  }
+  main #home article .slider-box .slider .slide-track .slide img {
+    width: 100px;
+    height: 100px;
+  }
+  main #home article .slider-box .slidebg img {
+    width: 300px;
+  }
+  main #about .about-2 .loop-holder .loop-holder__text {
+    font-size: 10vw;
+  }
+  main #about .about-2 .about-trple ul li {
+    width: 350px;
+  }
+  main #about .about-2 .about-img .one-size div:nth-of-type(1) {
+    width: 400px;
+    height: 400px;
+  }
+  main #about .about-2 .about-img .one-size div:nth-of-type(2) {
+    width: 350px;
+    height: 350px;
+  }
+  main #about .about-2 .about-img .one-size div:nth-of-type(3) {
+    width: 300px;
+    height: 300px;
+  }
+  main #about .about-2 .about-img .ab-move .mouck {
+    width: 250px;
+  }
+  main #about .about-2 .about-img .ab-move .ct {
+    top: 24rem;
+  }
+  main #about .about-3 .about-title ul li .ab-title .ab-box {
+    height: 450px;
+    padding: 1.5rem 2rem;
+  }
+  main #coin .coin-text .box-intro {
+    width: 60%;
+  }
+  main #roadmap .road-box div ul .road-left .road-one {
+    display: none;
+  }
+  main #roadmap .road-box div ul .road-right .road-one {
+    display: none;
+  }
+  main #contact article ul .con-right div form input {
+    width: 80%;
+  }
+}
+/* 모바일4 아이폰 375px */
+@media screen and (max-width: 375px) {
+  main #home article .slider-box {
+    width: 46%;
+  }
+  main #home article .slider-box .slider {
+    width: 68%;
+  }
+  main #about .about-3 .about-title ul li .ab-title .ab-box {
+    padding: 0.9rem 1rem;
+  }
+}/*# sourceMappingURL=moblie.css.map */

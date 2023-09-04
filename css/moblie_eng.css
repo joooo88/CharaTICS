@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/*데탑 1440px*/
+@media screen and (max-width: 1440px) {
+  main #coin .coin-text .box-intro {
+    width: 30%;
+  }
+  main #roadmap .road-box div ul .road-left .road-one img {
+    height: 280px;
+  }
+  main #roadmap .road-box div ul .road-left .road-box {
+    height: 280px;
+  }
+  main #roadmap .road-box div ul .road-right .road-one img {
+    height: 280px;
+  }
+  main #roadmap .road-box div ul .road-right .road-box {
+    height: 280px;
+  }
+}
+/*노트북 1024px*/
+@media screen and (max-width: 1024px) {
+  main #home article .home_wrap .home_content .home_txt h3 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  main #coin .coin-text .box-intro {
+    width: 40%;
+  }
+  main #roadmap .road-box div ul .road-left .road-box {
+    padding: 1.5rem;
+  }
+  main #roadmap .road-box div ul .road-right .road-box {
+    padding: 1.5rem;
+  }
+}
+/*패드 991px*/
+@media screen and (max-width: 991px) {
+  main #about .about-3 .about-title ul li .ab-title .ab-box {
+    padding: 2rem;
+  }
+  main #roadmap .road-box div ul .road-left .road-box h3 {
+    line-height: 2;
+  }
+  main #roadmap .road-box div ul .road-right .road-box h3 {
+    line-height: 1.4;
+  }
+}
+/*아이패드 768px*/
+@media screen and (max-width: 768px) {
+  main #coin .coin-text .box-intro {
+    width: 55%;
+  }
+  main #roadmap .road-box div ul .road-left .road-one img {
+    width: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main #roadmap .road-box div ul .road-left .road-box h3 {
+    line-height: 1.7;
+  }
+  main #roadmap .road-box div ul .road-right .road-one img {
+    width: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+/* 모바일 767px*/
+/* 모바일2 576px */
+@media screen and (max-width: 576px) {
+  main #home article .home_wrap {
+    width: 80%;
+  }
+  main #home article .home_wrap .home_content .home_txt h3 {
+    font-size: 1.5rem;
+  }
+  main #about .about-3 .about-title ul li .ab-title .ab-box {
+    padding: 1.5rem;
+  }
+  main #coin .coin-text .box-intro {
+    width: 70%;
+  }
+  main #roadmap .road-box div ul .road-left .road-one {
+    display: none;
+  }
+  main #roadmap .road-box div ul .road-left .road-box h3 {
+    line-height: 2.5;
+  }
+  main #roadmap .road-box div ul .road-right .road-one {
+    display: none;
+  }
+  main #roadmap .road-box div ul .road-right .road-box h3 {
+    line-height: 1.8;
+  }
+}
+/* 모바일3 갤석시 425px */
+@media screen and (max-width: 425px) {
+  main #home article .home_wrap .home_content .home_txt h3 {
+    white-space: normal;
+  }
+  main #about .about-3 .about-title ul li .ab-title .ab-box {
+    height: 500px;
+  }
+  main #coin .coin-text .box-intro {
+    width: 100%;
+  }
+  main #roadmap .road-box div ul .road-left .road-box h3 {
+    line-height: 1.9;
+  }
+  main #roadmap .road-box div ul .road-right .road-box h3 {
+    line-height: 1.4;
+  }
+}
+/* 모바일4 아이폰 375px */
+@media screen and (max-width: 375px) {
+  main #about .about-3 .about-title ul li .ab-title .ab-box {
+    padding: 1rem;
+  }
+  main #roadmap .road-box div ul .road-left .road-box h3 {
+    line-height: 1.5;
+  }
+}/*# sourceMappingURL=moblie_eng.css.map */
